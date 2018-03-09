@@ -33,6 +33,7 @@ public class t_report_columnCtl extends BaseController {
 	private ConsoleService consoleService;
 	
 	@RequestMapping("/loadPage")
+	
 	public ModelAndView loadPage(HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 		DictHelper.getDicts(consoleService);
