@@ -37,6 +37,7 @@ import com.google.gson.reflect.TypeToken;
 /*
  * 总入口
  */
+
 @Controller
 public class ConsoleLogonController extends BaseController {
 	
@@ -87,6 +88,7 @@ public class ConsoleLogonController extends BaseController {
 	 * @return
 	 * @throws Exception
 	 */
+
 	public PageData getSystemBean(String systemId) throws Exception{
 		PageData bean = null;
 		List<PageData> systemList = getSystemList();

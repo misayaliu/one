@@ -94,7 +94,6 @@ public class t_report_baseCtl extends BaseController {
 					"t_report_base.selectAll", "jieyi.app.util.PageData");
 			//pd = gson.fromJson(pdStr, new TypeToken<PageData>() {}.getType());
 			t_report_base reportbase = gson.fromJson(pdStr, new TypeToken<t_report_base>() {}.getType());
-
 			requestReturn.setResult(JsonRequestReturn.SUCCESS);
 			requestReturn.setField1(reportbase);
 		} catch (Exception e) {

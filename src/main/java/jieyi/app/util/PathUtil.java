@@ -32,7 +32,6 @@ public class PathUtil {
 			String projectPath = PublicUtil.getPorjectPath().replaceAll("\\\\",
 					"/");
 			projectPath = splitString(projectPath, "bin/");
-
 			strBuf.append(projectPath);
 			strBuf.append("webapps/ROOT/");
 		}
@@ -78,7 +77,6 @@ public class PathUtil {
 		strBuf.append(request.getScheme() + "://");
 		strBuf.append(request.getServerName() + ":");
 		strBuf.append(request.getServerPort() + "");
-
 		strBuf.append(request.getContextPath() + "/");
 
 		strResult = strBuf.toString();// +"ss/";//加入项目的名称

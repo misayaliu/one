@@ -45,7 +45,7 @@ public class Tools {
 	
 	/**
 	 * 字符串转换为字符串数组
-	 * @param str 字符串
+	 * @param str 字符串-
 	 * @param splitRegex 分隔符
 	 * @return
 	 */
@@ -164,6 +164,10 @@ public class Tools {
 	}
 	
 	/**
+	  * 
+	  * 
+	  * 
+	  * 
 	  * 验证邮箱
 	  * @param email
 	  * @return

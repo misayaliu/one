@@ -52,7 +52,6 @@ public class PoiReportCtl extends BaseController {
 		// 报表信息
 		String jsonString = request.getParameter("jsonStr");
 		logger.info("jsonString="+jsonString);
-		logger.info("jsonString="+jsonString);
 		jsonString = new String(jsonString.getBytes("ISO8859-1"), "UTF-8");
 		PoiReportForm ppf = gson.fromJson(jsonString, PoiReportForm.class);
 		

@@ -51,7 +51,7 @@ public class BaseController {
 		mv.clear();
 		PageData pds = new PageData();
 		pds = new PageData(this.getRequest());
-		
+			
 		//pds.put("SYSNAME", Tools.readTxtFile(Const.SYSNAME)); //读取系统名称
 		//pds.put("SYSNAME", "权限管理系统"); //读取系统名称
 		mv.addObject("pdm",pds);
